@@ -176,6 +176,8 @@ WAGTAILSEARCH_BACKENDS = {
 # e.g. in notification emails. Don't include '/admin' or a trailing slash
 WAGTAILADMIN_BASE_URL = "http://example.com"
 
+env = os.environ.copy()
+
 AWS_STORAGE_BUCKET_NAME = env['AWS_STORAGE_BUCKET_NAME']
 AWS_ACCESS_KEY_ID = env['AWS_ACCESS_KEY_ID']
 AWS_SECRET_ACCESS_KEY = env['AWS_SECRET_ACCESS_KEY']

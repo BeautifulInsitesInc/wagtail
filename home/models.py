@@ -1,4 +1,4 @@
-pyfrom django.db import models
+from django.db import models
 
 from wagtail.models import Page
 

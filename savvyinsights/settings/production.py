@@ -5,7 +5,7 @@ import os
 
 import dj_database_url
 
-DEBUG = False
+DEBUG = True
 
 env = os.environ.copy()
 
